@@ -36,6 +36,10 @@ namespace ConsoleApp1
             }
             Console.ResetColor();
         }
+        public static void PrintMyName()
+        {
+            Console.WriteLine("Песчаный Максим Кириллович 1000.-7.=993");
+        }
 
         public static void PrintmyName()
         {
@@ -46,7 +50,7 @@ namespace ConsoleApp1
         {
             MatrixA(10, 12);
             MatrixB(10, 12);
-            PrintmyName();
+            PrintMyName();
         }
     }
 }
