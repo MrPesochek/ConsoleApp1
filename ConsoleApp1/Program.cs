@@ -33,6 +33,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             MatrixA(10, 12);
+            MatrixB(10, 12);
             PrintMyName();
         }
     }
