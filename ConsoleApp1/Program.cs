@@ -13,8 +13,6 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Fomin Daniil Antonovich\n993-7=986");
         }
-            Console.WriteLine("Fomin Daniil Antonovich\n10.3\nJuly, 28");
-        }
 
         static void Main(string[] args)
         {
