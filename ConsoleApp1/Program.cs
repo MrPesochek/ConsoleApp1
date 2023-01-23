@@ -6,6 +6,7 @@ namespace ConsoleApp1
     {
         public static void MatrixB(int n, int h)
         {
+            MatrixA(10, 12);
             int[,] matrix = new int[n, h];
             Random rnd = new Random();
             for (int i = 1; i < n; i++)
@@ -20,6 +21,21 @@ namespace ConsoleApp1
             }
             Console.ResetColor();
         }
+        public static void MatrixA(int a, int b)
+        {
+            string[,] matrix = new string[a,b];
+            Random rnd = new Random();
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            for (int i = 0; i < a; i++)
+            {
+                for (int j = 0; j < b; j++)
+                {
+                    matrix[i, j] = rnd.Next(2).ToString();
+                    Console.Write(matrix[i, j] + " ");
+                }
+                Console.Write('\n');
+            }
+            Console.ResetColor();
 
         static void Main(string[] args)
         {
