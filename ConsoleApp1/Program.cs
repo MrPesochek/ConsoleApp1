@@ -8,6 +8,9 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World!");
         }
-        
+        public static string GdeDesign(string Anton)
+        {
+            return "Скоро скину";
+        }
     }
 }
