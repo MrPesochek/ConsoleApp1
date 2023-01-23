@@ -24,9 +24,9 @@ namespace ConsoleApp1
         {
             int[,] matrix = new int[n, h];
             Random rnd = new Random();
-            for (int i = 1; i < n; i++)
+            for (int i = 0; i < n; i++)
             {
-                for (int j = 1; j < h; j++)
+                for (int j = 0; j < h; j++)
                 {
                     matrix[i, j] = rnd.Next(2);
                     Console.ForegroundColor = ConsoleColor.Magenta;
